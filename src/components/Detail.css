@@ -1,0 +1,39 @@
+.btn{
+    padding: 0.5rem;
+    margin-right: 3rem;
+    position: relative;
+    color: rgb(35, 121, 219);
+    border-color: rgb(35, 121, 219);
+    background: white;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    transition: all 1s linear;
+     /* 100%down 100%ryt -ve value for up left*/
+}
+.btn:hover{
+    color: black;
+    background: rgb(35, 121, 219);
+    cursor: pointer;
+}
+
+.btn-cartt{
+    padding: 0.5rem;
+    margin-right: 3rem;
+    position: absolute;
+    color: rgb(248, 232, 11);
+    border-color: rgb(248, 232, 11);
+    background: white;
+    font-size: 1.4rem;
+    border-radius: 0.5rem;
+    transition: all 1s linear;
+    border: 1.4px solid ;
+     /* 100%down 100%ryt -ve value for up left*/
+}
+.btn-cartt:hover{
+    color: black;
+    background: rgb(240, 138, 6);
+    cursor: pointer;
+}
+*:focus{
+    outline: 0 !important;
+}

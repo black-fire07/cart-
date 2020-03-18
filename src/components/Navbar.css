@@ -1,0 +1,27 @@
+.button{
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    background: transparent;
+    border: 0.09rem solid lightblue;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem; /*1rem=20px*/
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover{
+    background: lightblue;
+    color: blue;
+}
+.button:focus{
+    outline: none;
+}
+nav{
+    background: blue;
+}
+.nav-link{
+    color: black!important;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    text-decoration: solid;
+}
+

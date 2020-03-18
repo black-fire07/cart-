@@ -1,0 +1,14 @@
+.Cartitem{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5em;
+    background-color: gray; 
+    width: 100%;
+    padding: 5px 1em;
+    border-radius: 5px;
+}
+
+.logo > *{
+    padding: 0 1em;
+}
